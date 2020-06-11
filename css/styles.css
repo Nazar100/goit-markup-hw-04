@@ -123,7 +123,7 @@ footer {
 }
 .main-caption {
   color: var(--background);
-  background-color: black;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -204,15 +204,25 @@ footer {
 box-sizing: border-box;
 padding: 20px 24px;
 border-top: 0px;
-  
+
 
 }
+
+
 /* main */
 .hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  /* background-color: #2196f3; */
+
+  background-color: black;
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../image/hero-upgrade.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .button {
   background-color: var(--add-text);
