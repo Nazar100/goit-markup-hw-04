@@ -388,7 +388,7 @@ margin-bottom: 30px;
   align-items: center;
   
 }
-.networks-item + .newtorks-item{
+.networks-item + .networks-item{
 margin-left:10px
 }
 .networks-icon:hover{
@@ -417,8 +417,21 @@ border-radius: 4px;
 .clients-logo-icon:hover{
   fill: var(--add-text);
 }
-
-
+.footer-networks-icon{
+  background-color: #484957;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+.footer-networks-icon:hover{
+  background-color: var(--add-text);
+}
+.footer-networks-item{
+  margin-left: auto;
+  margin-right: auto;
+}
 .benefits-list-item {
   width: 270px;
 }
