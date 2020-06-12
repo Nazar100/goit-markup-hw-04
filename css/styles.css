@@ -148,6 +148,7 @@ footer {
 }
 .nav-contacts {
   display: flex;
+  
   margin-left: auto;
 }
 /* logo */
@@ -185,6 +186,12 @@ footer {
 .nav-list-contacts + .nav-list-contacts {
   margin-left: 30px;
 }
+.nav-list-contacts{
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav
 .current {
   color: var(--add-text);
 }
@@ -193,6 +200,10 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+
+  display: flex;
+ align-items: flex-end;
+  
 }
 .contacts:hover,
 .contacts:focus {
@@ -208,7 +219,24 @@ border-top: 0px;
 
 }
 
-
+.icon-contacts{
+ margin-right: 10px;
+  
+  fill:currentColor;
+}
+.benefits-icon{
+  display: flex;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--alt-background);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.benefits-item{
+  margin-left: auto;
+  margin-right: auto;
+}
 /* main */
 .hero {
   text-align: center;
@@ -363,6 +391,34 @@ margin-bottom: 30px;
 .networks-item + .newtorks-item{
 margin-left:10px
 }
+.networks-icon:hover{
+  --color1:#2196F3;
+  --color2:#ffffff
+}
+.clients-logo{
+ width: 170px;
+ height: 90px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.clients-logo:hover{
+  border-color: var(--add-text);
+  color: var(--add-text);
+}
+
+.clients-logo-icon{  
+  margin-left: auto;
+  margin-right: auto;
+  fill: #AFB1B8
+}
+.clients-logo-icon:hover{
+  fill: var(--add-text);
+}
+
+
 .benefits-list-item {
   width: 270px;
 }
