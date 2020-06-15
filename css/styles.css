@@ -47,9 +47,11 @@ header {
   /* border: 3px solid tomato; */
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
   /* background-color: blueviolet; */
+}
+.margin {
+  margin-top: 94px;
 }
 .logo-footer {
   text-decoration: none;
@@ -112,9 +114,6 @@ footer {
   font-style: normal;
 }
 
-.section.no-padding {
-  padding-top: 0;
-}
 .link {
   text-decoration: none;
   display: inline-block;
@@ -239,6 +238,7 @@ footer {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 94px;
 
   background-color: black;
   height: 600px;
@@ -453,9 +453,14 @@ footer {
   margin-right: 0px;
 }
 .our-teem {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: var(--alt-background);
 }
-
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .contacts-footer {
   font-weight: 400;
   font-size: 14px;
