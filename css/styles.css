@@ -21,9 +21,15 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 56px;
 }
 header {
+  background-color: var(--background);
   border-bottom: 1px solid #ececec;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
 
 .footer-flex {
