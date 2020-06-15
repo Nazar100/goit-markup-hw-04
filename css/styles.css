@@ -422,7 +422,7 @@ footer {
   margin-right: auto;
   fill: #afb1b8;
 }
-.clients-logo-icon:hover {
+.clients-logo:hover .clients-logo-icon {
   fill: var(--add-text);
 }
 .footer-networks-icon {
