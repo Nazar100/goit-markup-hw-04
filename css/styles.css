@@ -238,7 +238,6 @@ footer {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 
   background-color: black;
   height: 600px;
@@ -453,10 +452,9 @@ footer {
   margin-right: 0px;
 }
 .our-teem {
-  
   background: var(--alt-background);
 }
-.no-padding{
+.no-padding {
   padding-top: 0px;
 }
 .portfolio-section {
