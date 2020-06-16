@@ -47,12 +47,12 @@ header {
   /* border: 3px solid tomato; */
 }
 .section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+
   /* background-color: blueviolet; */
 }
-.margin {
-  margin-top: 94px;
-}
+
 .logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -453,9 +453,11 @@ footer {
   margin-right: 0px;
 }
 .our-teem {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  
   background: var(--alt-background);
+}
+.no-padding{
+  padding-top: 0px;
 }
 .portfolio-section {
   padding-top: 94px;
